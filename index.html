@@ -11,7 +11,18 @@
 	body{
 		overflow:hidden;
 	}
+a{
+	color:white;
+	font-size:1.2rem;
+	font-weight:600;
+}
+a.click-to-chat{
+	color:#777;
+}
 
+a:hover{
+	opacity:.7;	
+}
 	.box-img{
 		height:auto;
 		width:100%;
@@ -123,22 +134,27 @@ font-size:1.1rem;
 color:white;
 }
 
+
 .hero-btn{
 	padding:.6rem 1.2rem;
 	margin-top:2rem;
 }
+
 .btn:hover{
 		background: none;
 	outline:2px solid #e52d27;
 	cursor:pointer;
 }
+
+button .hero-btn-link:hover{
+	color:white;
+}
+
  .other-btn{
 	 padding: 0.6rem 1.5rem;
 	 margin-top: 3rem;
  }
- .other-btn:hover{
- 	color:#222;
- }
+
 .hero-fb{
 	max-width: 30rem;
 	clip-path: polygon(100% 0, 81% 48%, 100% 100%, 11% 100%, 0 48%, 14% 0);
@@ -229,7 +245,10 @@ Mobile Media Queries
 <h3 class ='has-text-light is-size-3 mb-3 is-size-2-desktop has-text-left-mobile'> Are you closing enough leads? </h3>
 <p class ='has-text-light is-size-5-desktop has-text-left-mobile'>We help business owners generate QUALIFIED 50+ LEADS monthly and DOUBLE their income through Paid Traffic and Sales Funnel. </p>
 <div> 
-	<button class ='hero-btn btn'> Close More Deals </button>
+	<button class ='hero-btn btn'>
+		<a href = 'https://calendly.com/digitsmma/15min' class='hero-btn-link'>
+		 Close More Deals </a>
+		</button>
 </div>
 
 	</div>
@@ -248,7 +267,7 @@ Mobile Media Queries
   	<div> <div class ='box-img'>
   	 <img src ='scaling.jpg' class =''>
  </div>
-  	<h3 class='is-size-4 has-text-dark mt-2 mb-2'> 1. Free scaling session  </h3>
+  	<h3 class='is-size-4 has-text-dark mt-2 mb-2'> 1. Free Scaling Session  </h3>
   	<p> You book a free scaling session and we to know
 each other before taking a deep dive through your
 account/metrics.</p>
@@ -298,7 +317,11 @@ who is behind the company, what we do and what you can expect!</p>
    	<img src= 'lead.jpg'>
    	<img src= 'lead2.png' class= 'mt-6'>
 <div>
-	<button class="btn other-btn mt-3">FREE SCALING SESSION </button>
+	<button class="btn other-btn mt-3">
+		<a href ='https://calendly.com/digitsmma/15min'>
+		FREE Scaling Session
+		</a> 
+	</button>
 </div>
    	</div>
    </section>
@@ -324,9 +347,12 @@ name it! If you want it... Just ask! </p>
 			Digital Marketing is our Passion and delivering results is what we do best!
 		</h3>
 		<div > 
-			<img src ='wa.png' class ='whatsapp-logo'></div>
+			<a href ='https://wa.me/13012008085'>
+			<img src ='wa.png' class ='whatsapp-logo'>
+			</a>
+		</div>
 		<p>
-			<a href ='!#'> click to chat </a>
+			<a href ='https://wa.me/13012008085' class ='click-to-chat'> click to chat </a>
 		</p>
 	</div>
 	</div>
@@ -348,7 +374,9 @@ My team are trained to the highest standard with the same passion for what they 
 		 </div>
 		 <div> 
 	<button class="btn other-btn mt-3">
+		<a href= 'https://calendly.com/digitsmma/15min'>
 		FREE Scaling Session
+		</a>
 	 </button>
 		 </div> 
 		
