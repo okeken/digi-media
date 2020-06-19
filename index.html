@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digit Media</title>
-    <link rel="stylesheet" href="bulma.min.css">   
+	<link rel="stylesheet" href="bulma.min.css"> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css"> 
 <style>
 	body{
 		overflow:hidden;
@@ -26,6 +27,11 @@ section{
 width:70%;
 margin:auto;
 }
+
+.container-hero{
+	width:70%;
+	margin:auto;
+}
 body{
 	font-family: sans-serif;
 }
@@ -38,10 +44,17 @@ body{
 	max-width:8rem;
 	margin: 1rem auto;
 }
+
 h3{
 	line-height: 2.5rem;
+	font-weight:600;
+	font-family: 'Plus Jakarta Display', sans-serif;
 }
 
+.dm-passion{
+	font-family:cursive;
+	font-weight:500;
+}
 .logo{
 max-width: 14rem;
 position:absolute;
@@ -107,12 +120,12 @@ background: linear-gradient(to top, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Fir
 font-weight:600;
 border:0;
 font-size:1.1rem;
-color:#bbb;
-margin-top: 3rem;
+color:white;
 }
 
 .hero-btn{
 	padding:.6rem 1.2rem;
+	margin-top:2rem;
 }
 .btn:hover{
 		background: none;
@@ -120,7 +133,8 @@ margin-top: 3rem;
 	cursor:pointer;
 }
  .other-btn{
- 	padding: 0.6rem 1.5rem;
+	 padding: 0.6rem 1.5rem;
+	 margin-top: 3rem;
  }
  .other-btn:hover{
  	color:#222;
@@ -132,16 +146,27 @@ margin-top: 3rem;
 
 }
 
-
-
-
+/*******************
+Desktop Media Queries
+********************/
 @media(min-width: 1100px){
 	.bx{
 		padding-top:3rem;
 	}
+.container-70{
+	width:55%;
+}
+
+.other-btn{
+	margin-top:2rem!important;
+}
+
 }
 
 
+/*******************
+Mobile Media Queries
+********************/
 @media (max-width:1000px ){
 	.other-btn{
 		margin:1.5rem auto;
@@ -180,12 +205,12 @@ margin-top: 3rem;
 
 	<section class ='hero'>
 		  <img src ='digit.png' class ='logo'>	
-<div class='bx container-70'>
+<div class='bx container-hero'>
 	<div class ='box-1'>	
 <h3 class ='has-text-light is-size-3 mb-3 is-size-2-desktop has-text-left-mobile'> Are you closing enough leads? </h3>
 <p class ='has-text-light is-size-5-desktop has-text-left-mobile'>We help business owners generate QUALIFIED 50+ LEADS monthly and DOUBLE their income through Paid Traffic and Sales Funnel. </p>
 <div> 
-	<button class ='hero-btn btn'> Get Started </button>
+	<button class ='hero-btn btn'> Close More Deals </button>
 </div>
 
 	</div>
@@ -198,8 +223,7 @@ margin-top: 3rem;
 	<div>
 	</section>
    <section> 
-   	<div class='container-70 pt-6'> 
-
+   	<div class='container-hero pt-6'> 
    	    <div class="columns has-text-centered">
   <div class="column">
   	<div> <div class ='box-img'>
@@ -277,7 +301,7 @@ name it! If you want it... Just ask! </p>
 <section class ='has-text-centered mt-6 has-background-white-ter py-6'>
 	<div class ='container-70' >
 	<div>
-		<h3 class='is-size-3'>
+		<h3 class='is-size-3 dm-passion'>
 			Digital Marketing is our Passion and delivering results is what we do best!
 		</h3>
 		<div > 
@@ -305,12 +329,12 @@ My team are trained to the highest standard with the same passion for what they 
 		 </div>
 		 <div> 
 	<button class="btn other-btn mt-3">
-		GET STARTED
+		FREE Scaling Session
 	 </button>
 		 </div> 
-		 <!-- hidd -->
+		
 	</section>
-	<footer class ='myfooter is-flex has-background-grey-light has-text-light  pb-2 pt-2'>
+	<footer class ='px-6 py-2 mt-5 myfooter is-flex has-background-grey-light has-text-light  pb-2 pt-2'>
 		<div>
 		<p >
 			Parent Company: NewswireJet, LLC
