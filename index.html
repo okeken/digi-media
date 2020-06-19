@@ -146,6 +146,22 @@ color:white;
 
 }
 
+.choose-agency{
+	opacity:0.8;
+	position:relative;
+	display:inline-block;
+}
+.choose-agency:before{
+	content: '';
+	position:absolute;
+	width:40%;
+	height:3px;
+	background:#e52d27;
+	bottom:0;
+	border-top-right-radius: 100px;
+}
+
+
 /*******************
 Desktop Media Queries
 ********************/
@@ -161,6 +177,9 @@ Desktop Media Queries
 	margin-top:2rem!important;
 }
 
+.myfooter{
+	padding:.6rem 1.3rem!important;
+}
 }
 
 
@@ -316,7 +335,7 @@ name it! If you want it... Just ask! </p>
 
 	<section class='has-text-centered-desktop pt-6 pb-4'> 
 		<div class ='container-70'>
-					<h2>
+	<h2 class ='has-text-weight-semibold choose-agency'>
 		Choose an agency that cares 
 	</h2>
 
@@ -334,7 +353,7 @@ My team are trained to the highest standard with the same passion for what they 
 		 </div> 
 		
 	</section>
-	<footer class ='px-6 py-2 mt-5 myfooter is-flex has-background-grey-light has-text-light  pb-2 pt-2'>
+	<footer class ='mt-5 myfooter is-flex has-background-grey-light has-text-light  pb-2 pt-2'>
 		<div>
 		<p >
 			Parent Company: NewswireJet, LLC
